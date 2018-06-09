@@ -1,0 +1,417 @@
+!-------------------------------------------------------------------------------
+! Xft settings
+!-------------------------------------------------------------------------------
+
+Xft.dpi:                    96
+Xft.antialias:              true
+!Xft.antialias:              false
+Xft.rgba:                   rgb
+Xft.hinting:                true
+Xft.hintstyle:              hintfull
+
+!-------------------------------------------------------------------------------
+! URxvt settings
+! Colours lifted from Solarized (http://ethanschoonover.com/solarized)
+! More info at:
+! http://pod.tst.eu/http://cvs.schmorp.de/rxvt-unicode/doc/rxvt.1.pod
+!-------------------------------------------------------------------------------
+
+URxvt.depth:                32
+URxvt.buffered:             true
+URxvt.geometry:             90x30
+URxvt.transparent:          false
+URxvt*background:           rgba:0000/0000/0000/bb80
+URxvt.shading:              13
+URxvt.fading:               20
+URxvt.urgentOnBell:         true
+!URxvt.visualBell:           true
+URxvt.loginShell:           true
+URxvt.saveLines:            2000
+URxvt.internalBorder:       3
+URxvt.lineSpace:            0
+URxvt.iso14755:             false
+URxvt.iso14755_52:          false
+
+! Fonts
+URxvt.allow_bold:           true
+
+! 6x13
+!URxvt*font:                 6x13
+
+! 7x14
+!URxvt*font:                 7x14
+
+! 8x13
+!URxvt*font:                 8x13
+
+! 9x15
+!URxvt*font:                 9x15
+
+! 9x18
+!URxvt*font:                 9x18
+
+! Bitstream Vera Sans Mono [-1]
+!URxvt*font:                 xft:Bitstream Vera Sans Mono:roman:pixelsize=14,xft:Symbola:pixelsize=7
+!URxvt*boldFont:             xft:Bitstream Vera Sans Mono:bold:pixelsize=14,xft:Symbola:pixelsize=7
+
+! DejaVu Sans Mono [-2]
+!URxvt*font:                 xft:DejaVu Sans Mono:pixelsize=14
+
+! Inconsolata [0]
+URxvt*font:                 xft:monospace:pixelsize=14,xft:Symbola:pixelsize=11
+URxvt*boldFont:             xft:monospace:bold:pixelsize=14,xft:Symbola:pixelsize=11
+
+! SGI Iris[2]
+!URxvt*font:                 xft:SGI Iris:regular:pixelsize=10,xft:lucy tewi:pixelsize=10
+!URxvt*boldFont:             xft:SGI Iris:regular:pixelsize=10,xft:lucy tewi:pixelsize=10
+
+! SGI Screen[-1]
+!URxvt*font:                 xft:SGI Screen:regular:pixelsize=13,xft:Symbola:pixelsize=9
+!URxvt*boldFont:             xft:SGI Screen:bold:pixelsize=13,xft:Symbola:pixelsize=9
+
+! Terminus[-0]
+!URxvt*font:                 xft:xos4 Terminus:medium:pixelsize=10,xft:Envy Code R:regular:pixelsize=10,xft:lucy tewi:pixelsize=10,xft:Unifont:regular:pixelsize=10,xft:Symbola:pixelsize=8
+!URxvt*boldFont:             xft:xos4 Terminus:bold:pixelsize=10,xft:Envy Code R:bold:pixelsize=10,xft:lucy tewi:pixelsize=10,xft:Unifont:regular:pixelsize=10,xft:Symbola:pixelsize=8
+
+! Blind Mode
+!URxvt*font:                 xft:xos4 Terminus:medium:pixelsize=14,xft:Envy Code R:regular:pixelsize=14,xft:lucy tewi:pixelsize=14,xft:Unifont:regular:pixelsize=14,xft:Symbola:pixelsize=8
+!URxvt*boldFont:             xft:xos4 Terminus:bold:pixelsize=14,xft:Envy Code R:bold:pixelsize=14,xft:lucy tewi:pixelsize=14,xft:Unifont:regular:pixelsize=14,xft:Symbola:pixelsize=8
+
+
+! tewi[-0]
+!URxvt*font:                 xft:lucy tewi:regular:pixelsize=9,xft:Symbola:regular:pixelsize=10
+!URxvt*boldFont:             xft:lucy tewi:bold:pixelsize=9,xft:Symbola:regular:pixelsize=10
+
+! gohu [-0]
+!URxvt*font:                 xft:Misc Fixed:semicondensed:pixelsize=13,xft:lucy tewi:regular:pixelsize=10
+!URxvt*boldFont:             xft:Misc Fixed:bold:pixelsize=13,xft:lucy tewi:bold:pixelsize=10
+
+
+! Fix font space
+URxvt*letterSpace:          -0
+
+! Scrollbar
+URxvt.scrollStyle:          rxvt
+URxvt.scrollBar:            false
+URxvt*scrollTtyKeypress:    true
+URxvt*scrollTtyOutput:      false
+
+! Perl extensions
+URxvtxperl-lib:             /usr/lib/urxvt/perl/
+URxvt.perl-ext:             default,matcher,selection-to-clipboard
+URxvt.matcher.button:       C-1
+URxvt.url-launcher:         firefox-developer-edition
+!URxvt.resize-font.smaller:  C-S-Down
+!URxvt.resize-font.bigger:   C-S-Up
+
+! Cursor
+URxvt.cursorBlink:          true
+!URxvt.cursorColor:          #657b83
+URxvt.cursorUnderline:      false
+
+! Pointer
+URxvt.pointerBlank:         true
+
+!-----------------------------------------------------------------------------------------------------------------------
+!!Source http://github.com/altercation/solarized
+
+!*background: #002b36
+!*background: rgba:0000/0000/0200/c800
+!*foreground: #657b83
+!!*fading: 40
+!*fadeColor: #002b36
+!*cursorColor: #93a1a1
+!*pointerColorBackground: #586e75
+!*pointerColorForeground: #93a1a1
+
+!! Solarized
+
+!! black dark/light
+!*color0: #073642
+!*color8: #002b36
+
+!!! red dark/light
+!*color1: #dc322f
+!*color9: #cb4b16
+
+!!! green dark/light
+!*color2: #859900
+!*color10: #586e75
+
+!!! yellow dark/light
+!*color3: #b58900
+!*color11: #657b83
+
+!!! blue dark/light
+!*color4: #268bd2
+!*color12: #839496
+
+!!! magenta dark/light
+!*color5: #d33682
+!*color13: #6c71c4
+
+!!! cyan dark/light
+!*color6: #2aa198
+!*color14: #93a1a1
+
+!!! white dark/light
+!*color7: #eee8d5
+!*color15: #fdf6e3
+!-----------------------------------------------------------------------------------------------------------------------
+!-----------------------------------------------------------------------------------------------------------------------
+!! cool-beans
+!*.foreground:   #bccae2
+!*.background:   #24262b
+!*.cursorColor:  #bccae2
+!*.color0:       #24262b
+!*.color8:       #3a3d45
+!*.color1:       #843c56
+!*.color9:       #ab4e70
+!*.color2:       #83a86f
+!*.color10:      #a3d18a
+!*.color3:       #a87458
+!*.color11:      #d3926f
+!*.color4:       #4a6aa3
+!*.color12:      #6b8bc3
+!*.color5:       #66518a
+!*.color13:      #9375c7
+!*.color6:       #4aa36a
+!*.color14:      #5dcc85
+!*.color7:       #bccae2
+!*.color15:      #dce9ff
+!-----------------------------------------------------------------------------------------------------------------------
+!-----------------------------------------------------------------------------------------------------------------------
+!! jellyx
+!*color0: #000000
+!*color1: #d75f5f
+!*color2: #00af87
+!*color3: #afd75f
+!*color4: #5fafd7
+!*color5: #8787af
+!*color6: #00afd7
+!*color7: #ffffff
+!*color8: #0a0a0a
+!*color9: #d787af
+!*color10: #5faf5f
+!*color11: #d7af5f
+!*color12: #87afd7
+!*color13: #8787d7
+!*color14: #87afff
+!*color15: #ffffff
+!*background: #000000
+!*foreground: #a8a8a8
+!-----------------------------------------------------------------------------------------------------------------------
+!-----------------------------------------------------------------------------------------------------------------------
+! Google Material Design
+
+!*background 		: #263238
+!*foreground 		: #eceff1
+
+!! black
+!*color0  			: #263238
+!*color8  			: #37474f
+!! red
+!*color1  			: #ff9800
+!*color9  			: #ffa74d
+!! green
+!*color2  			: #8bc34a
+!*color10 			: #9ccc65
+!! yellow
+!*color3  			: #ffc107
+!*color11 			: #ffa000
+!! blue
+!*color4  			: #03a9f4
+!*color12 			: #81d4fa
+!! magenta
+!*color5  			: #e91e63
+!*color13 			: #ad1457
+!! cyan
+!*color6  			: #009688
+!*color14 			: #26a69a
+!! white
+!*color7  			: #cfd8dc
+!*color15 			: #eceff1
+!-----------------------------------------------------------------------------------------------------------------------
+!-----------------------------------------------------------------------------------------------------------------------
+! special
+!*.foreground:   #d9d8d8
+!*.background:   #231f20
+!*.cursorColor:  #d9d8d8
+
+!! black
+!*.color0:       #231f20
+!*.color8:       #737171
+
+!! red
+!*.color1:       #ee2e24
+!*.color9:       #ee2e24
+
+!! green
+!*.color2:       #00853e
+!*.color10:      #00853e
+
+!! yellow
+!*.color3:       #ffd204
+!*.color11:      #ffd204
+
+!! blue
+!*.color4:       #009ddc
+!*.color12:      #009ddc
+
+!! magenta
+!*.color5:       #98005d
+!*.color13:      #98005d
+
+!! cyan
+!*.color6:       #85cebc
+!*.color14:      #85cebc
+
+!! white
+!*.color7:       #d9d8d8
+!*.color15:      #ffffff
+!-----------------------------------------------------------------------------------------------------------------------
+!-----------------------------------------------------------------------------------------------------------------------
+! nice
+! special
+!*.foreground:   #d7d0c7
+!*.background:   #151515
+!*.cursorColor:  #d7d0c7
+
+!! black
+!*.color0:       #101010
+!*.color8:       #404040
+
+!! red
+!*.color1:       #e84f4f
+!*.color9:       #d23d3d
+
+!! green
+!*.color2:       #b8d68c
+!*.color10:      #a0cf5d
+
+!! yellow
+!*.color3:       #e1aa5d
+!*.color11:      #f39d21
+
+!! blue
+!*.color4:       #7dc1cf
+!*.color12:      #4e9fb1
+
+!! magenta
+!*.color5:       #9b64fb
+!*.color13:      #8542ff
+
+!! cyan
+!*.color6:       #6d878d
+!*.color14:      #42717b
+
+!! white
+!*.color7:       #dddddd
+!*.color15:      #dddddd
+!-----------------------------------------------------------------------------------------------------------------------
+!-----------------------------------------------------------------------------------------------------------------------
+!! neon
+! special
+!*.foreground:   #f8f8f8
+!*.background:   #171717
+!*.cursorColor:  #f8f8f8
+
+!! black
+!*.color0:       #171717
+!*.color8:       #38252c
+
+!! red
+!*.color1:       #d81765
+!*.color9:       #ff0000
+
+!! green
+!*.color2:       #97d01a
+!*.color10:      #76b639
+
+!! yellow
+!*.color3:       #ffa800
+!*.color11:      #e1a126
+
+!! blue
+!*.color4:       #16b1fb
+!*.color12:      #289cd5
+
+!! magenta
+!*.color5:       #ff2491
+!*.color13:      #ff2491
+
+!! cyan
+!*.color6:       #0fdcb6
+!*.color14:      #0a9b81
+
+!! white
+!*.color7:       #ebebeb
+!*.color15:      #f8f8f8
+
+!! True Solarized
+
+#define S_base03        #002b36
+#define S_base02        #073642
+#define S_base01        #586e75
+#define S_base00        #657b83
+#define S_base0         #839496
+#define S_base1         #93a1a1
+#define S_base2         #eee8d5
+#define S_base3         #fdf6e3
+
+!*background:            S_base03
+*foreground:            S_base0
+*fadeColor:             S_base03
+*cursorColor:           S_base1
+*pointerColorBackground:S_base01
+*pointerColorForeground:S_base1
+
+#define S_yellow        #b58900
+#define S_orange        #cb4b16
+#define S_red           #dc322f
+#define S_magenta       #d33682
+#define S_violet        #6c71c4
+#define S_blue          #268bd2
+#define S_cyan          #2aa198
+#define S_green         #859900
+
+!! black dark/light
+*color0:                S_base02
+*color8:                S_base03
+
+!! red dark/light
+*color1:                S_red
+*color9:                S_orange
+
+!! green dark/light
+*color2:                S_green
+*color10:               S_base01
+
+!! yellow dark/light
+*color3:                S_yellow
+*color11:               S_base00
+
+!! blue dark/light
+*color4:                S_blue
+*color12:               S_base0
+
+!! magenta dark/light
+*color5:                S_magenta
+*color13:               S_violet
+
+!! cyan dark/light
+*color6:                S_cyan
+*color14:               S_base1
+
+!! white dark/light
+*color7:                S_base2
+*color15:               S_base3
+
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: #002b37, #002b37, #003642
+rofi.color-normal: #002b37, #819396, #003643, #008ed4, #ffffff
+rofi.color-active: #002b37, #008ed4, #003643, #008ed4, #66c6ff
+rofi.color-urgent: #002b37, #da4281, #003643, #008ed4, #890661
